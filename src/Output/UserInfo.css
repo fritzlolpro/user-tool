@@ -1,0 +1,23 @@
+.user-pic {
+  margin-bottom: 16px !important;
+}
+.user-name {
+  font-family: Roboto, sans-serif !important;
+  font-weight: 400 !important;
+  margin-bottom: 8px !important;
+  margin-top: 8px !important;
+  font-size: 32px !important;
+  color: #616161 !important;
+  text-transform: capitalize !important;
+}
+.user-plate {
+  height: 100% !important;
+  position: relative !important;
+}
+.actions-block {
+  position: absolute !important;
+  bottom: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  margin: auto !important;
+}

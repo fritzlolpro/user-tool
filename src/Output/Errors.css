@@ -1,0 +1,17 @@
+.error-wrapper {
+  align-self: center;
+  flex-grow: 2;
+}
+.button-dismiss {
+  display: block !important;
+  margin: 0 auto !important;
+  margin-top: 16px !important;
+}
+.error-card {
+  margin: 0 auto !important;
+  margin-top: 24px !important;
+  padding: 16px !important;
+  width: 450px !important;
+  transition: .7 !important;
+  background-color: #FCE4EC !important;
+}
