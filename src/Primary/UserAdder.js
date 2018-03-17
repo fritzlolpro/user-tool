@@ -132,7 +132,7 @@ class UserAdder extends Component {
     }
 
     render() {
-        // if error show error show button by dafault, show from if adding
+        // if error => show error;; show button by default, show form if addin' stuff
         const {adding, error, notificationOpen, notificationMessage} = this.state
         return (
             <div className='adding-widget'>
