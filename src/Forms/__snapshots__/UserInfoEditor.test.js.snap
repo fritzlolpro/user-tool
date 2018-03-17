@@ -1,13 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`UserAddForm has a valid snapshot 1`] = `
+exports[`UserInfoEditor has a valid snapshot 1`] = `
 ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <MuiThemeProvider>
-    <UserAddForm
-        disablePostButton={[Function]}
-    />
+    <UserInfoEditor />
 </MuiThemeProvider>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
@@ -20,9 +18,7 @@ ShallowWrapper {
     "instance": null,
     "key": undefined,
     "nodeType": "function",
-    "props": Object {
-      "disablePostButton": [Function],
-    },
+    "props": Object {},
     "ref": null,
     "rendered": null,
     "type": [Function],
@@ -32,9 +28,7 @@ ShallowWrapper {
       "instance": null,
       "key": undefined,
       "nodeType": "function",
-      "props": Object {
-        "disablePostButton": [Function],
-      },
+      "props": Object {},
       "ref": null,
       "rendered": null,
       "type": [Function],
