@@ -1,5 +1,18 @@
+@iphones: ~"only screen and (max-width : 479px) and (min-width : 321px)";
+@tablet: ~"only screen and (max-width : 1023px) and (min-width : 480px)";
 .App {
+
     margin-left: 64px;
     margin-top: 32px;
     text-align: center;
+
+    @media @iphones {
+        margin: 0;
+    }
+    @media @tablet {
+        margin: 0;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+    }
 }

@@ -7,10 +7,25 @@
 .user-card {
   margin-left: 16px !important;
 }
+@media only screen and (max-width : 479px) and (min-width : 321px) {
+  .user-card {
+    margin-left: 0px !important;
+  }
+}
+@media only screen and (max-width : 1023px) and (min-width : 480px) {
+  .user-card {
+    margin-left: 0px !important;
+  }
+}
 .standart-card {
   margin-bottom: 24px !important;
   padding: 16px !important;
   width: 450px !important;
   height: 550px !important;
   transition: .7 !important;
+}
+@media only screen and (max-width : 479px) and (min-width : 321px) {
+  .standart-card {
+    width: 375px !important;
+  }
 }

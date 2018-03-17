@@ -1,3 +1,6 @@
+@iphones: ~"only screen and (max-width : 479px) and (min-width : 321px)";
+@tablet: ~"only screen and (max-width : 1023px) and (min-width : 480px)";
+
 .list-wrapper {
     display: flex;
     flex-wrap: wrap;
@@ -11,10 +14,19 @@
     width: 450px;
     height: 550px;
     transition: .7;
+    @media @iphones {
+         width: 375px !important;
+    }
 }
 
 .user-card() {
     margin-left: 16px;
+    @media @iphones {
+        margin-left: 0px !important;
+    }
+    @media @tablet {
+        margin-left: 0px !important;
+    }
 }
 
 .user-card {
