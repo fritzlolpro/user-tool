@@ -41,6 +41,8 @@ For testing -- Jest and Enzyme, pretty standart tools for testing React apps
 
 ## Why it looks so
 Cards layout helps to fit in all information I need, it's also pretty flexible scaliable thing.
+It works for small scales of data which are returned by the api. For some big amount of users the table layout 
+would fit better.
 
 ## Code
 All components are in respective files for the sake of clarity and modularity.
